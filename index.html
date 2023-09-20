@@ -3,9 +3,16 @@
 <html>
 <head>
     <style>
+
+        @import url('https://fonts.cdnfonts.com/css/harlow-solid-italic');
+
+        .background {
+            background-color: #121212;
+        }
+
         .title {
-            font-family: "Courier New";
-            font-size: 64pt;
+            font-family: "Harlow Solid Italic";
+            font-size: 56pt;
             margin-right: 10pt;
             margin-bottom: 64pt;
             margin-left: 10pt;
@@ -13,114 +20,124 @@
             width: 100%;
             color: #505050;
         }
+
         .quote {
             font-family: "Courier New";
-            font-size: 28pt;
+            font-size: 24pt;
             margin-top: 0pt;
             margin-right: 10pt;
             margin-bottom: 10pt;
-            margin-left: 10pt;
+            margin-left: 20pt;
             width: 100%;
             color: #A0A0A0;
         }
+        .quote:before {content: '"';}
+        .quote:after {content: '"';}
+
         .owner {
-            font-family: "Courier";
-            font-size: 32pt;
+            font-family: "Courier New";
+            font-size: 28pt;
             font-style: italic;
             margin-top: 0pt;
             margin-right: 10pt;
             margin-bottom: 40pt;
-            margin-left: 10pt;
+            margin-left: 20pt;
             width: 100%;
             color: #404040;
         }
+        .owner:before {content: "(";}
+        .owner:after {content: ")";}
+
     </style>
 </head>
 
-    <body style="background-color:#121212;">
+    <body class="background">
 
-        <p class="title">VMC Idézetek</p>
+        <p class="title">Idézetek</p>
 
-        <p class="quote">"Think twice, build once"</p>
-        <p class="owner">(Attish)</p>
+        <p class="quote">Think twice, build once</p>
+        <p class="owner">Attish</p>
 
-        <p class="quote">"Bétát becsülni könnyű. Jól becsülni az már más kérdés"</p>
-        <p class="owner">(Bence)</p>
+        <p class="quote">Bétát becsülni könnyű. Jól becsülni az már más kérdés</p>
+        <p class="owner">Bence</p>
 
-        <p class="quote">"A mai teszt nap sem sikerült pápaválasztás nélkül"</p>
-        <p class="owner">(Geri)</p>
+        <p class="quote">A mai teszt nap sem sikerült pápaválasztás nélkül</p>
+        <p class="owner">Geri</p>
 
-        <p class="quote">"Mikor rendel ma a cég agyközpontja? (Claudia)"</p>
-        <p class="owner">(Geri)</p>
+        <p class="quote">Nemrég olvastam, hogy több repülő van a tengerben, mint hajó az égen</p>
+        <p class="owner">Rudi</p>
 
-        <p class="quote">"Nem mindegy hogy semmit küldesz, vagy nem küldesz semmit"</p>
-        <p class="owner">(Bence)</p>
+        <p class="quote">Nem mindegy hogy semmit küldesz, vagy nem küldesz semmit</p>
+        <p class="owner">Bence</p>
 
-        <p class="quote">"Több főnököm van, mint munkatársam"</p>
-        <p class="owner">(Áron)</p>
+        <p class="quote">Több főnököm van, mint munkatársam</p>
+        <p class="owner">Áron</p>
 
-        <p class="quote">"A ControlDesk alapértelmezett esetben mindig meg akar téged szopatni"</p>
-        <p class="owner">(Bence)</p>
+        <p class="quote">A ControlDesk alapértelmezett esetben mindig meg akar téged szopatni</p>
+        <p class="owner">Bence</p>
 
-        <p class="quote">"Na, indulok haza. Otthon identifikálni kell egy határozatlan, nemlineáris, időfüggő, sok szabadságfokú, több bemenetű, több kimenetű rendszert"</p>
-        <p class="owner">(Csaba)</p>
+        <p class="quote">Na, indulok haza. Otthon identifikálni kell egy határozatlan, nemlineáris, időfüggő, sok szabadságfokú, több bemenetű, több kimenetű rendszert</p>
+        <p class="owner">Csaba</p>
 
-        <p class="quote">"Én tudok egy oldalt, ahol álltalában 100%-os leértékeléssel vannak könyvek"</p>
-        <p class="owner">(Attish)</p>
+        <p class="quote">Én tudok egy oldalt, ahol álltalában 100%-os leértékeléssel vannak könyvek</p>
+        <p class="owner">Attish</p>
 
-        <p class="quote">"Úgy látom Attisnak ma reggelre állandó lakhelye lett Degecen"</p>
-        <p class="owner">(Geri)</p>
+        <p class="quote">Úgy látom Attish-nak ma reggelre állandó lakhelye lett Degecen</p>
+        <p class="owner">Geri</p>
 
-        <p class="quote">"Az egész mérnöki munka arról szól, hogy eldöntöd mi fontos és mi nem"</p>
-        <p class="owner">(Adorján)</p>
+        <p class="quote">Az egész mérnöki munka arról szól, hogy eldöntöd mi fontos és mi nem</p>
+        <p class="owner">Adorján</p>
 
-        <p class="quote">"A kurva anyád"</p>
-        <p class="owner">(Attish)</p>
+        <p class="quote">A kurva anyád</p>
+        <p class="owner">Attish</p>
 
-        <p class="quote">"Ha a buszsáv egyben kerékpár út is, akkor egykerekűvel gyorsan felkerülhet rád a "néhai" előtag"</p>
-        <p class="owner">(Geri)</p>
+        <p class="quote">Ha a buszsáv egyben kerékpár út is, akkor egykerekűvel gyorsan felkerülhet rád a "néhai" előtag</p>
+        <p class="owner">Geri</p>
 
-        <p class="quote">"A délkoreai pillangók szárnycsapásait én nem számolnám bele"</p>
-        <p class="owner">(Adorján)</p>
+        <p class="quote">A délkoreai pillangók szárnycsapásait én nem számolnám bele</p>
+        <p class="owner">Adorján</p>
 
-        <p class="quote">"Kicsit mérges vagyok, mert amit kértem mindenkitől, hogy csinálják meg, az nem csinálta meg senki"</p>
-        <p class="owner">(Leó)</p>
+        <p class="quote">Kicsit mérges vagyok, mert amit kértem mindenkitől, hogy csinálják meg, az nem csinálta meg senki</p>
+        <p class="owner">Leó</p>
 
-        <p class="quote">"Áron, azért ráz meg az AutoBox tápja csak téged, mert túl sok feszültség van benned"</p>
-        <p class="owner">(Ági)</p>
+        <p class="quote">250 Newton az lóf*sz</p>
+        <p class="owner">Áron</p>
 
-        <p class="quote">"Kimenni az űrbe? Hülye vagy, egyből meghalnék!"</p>
-        <p class="owner">(Rudi)</p>
+        <p class="quote">Áron, azért ráz meg az AutoBox tápja csak téged, mert túl sok feszültség van benned</p>
+        <p class="owner">Ági</p>
+
+        <p class="quote">Kimenni az űrbe? Hülye vagy, egyből meghalnék!</p>
+        <p class="owner">Rudi</p>
 
         <p class="quote">Ezt még gyorsan debug-olom, 2 perc</p>
-        <p class="owner">(Áron)</p>
+        <p class="owner">Áron</p>
 
-        <p class="quote">"Valahogy úgy kellene megfogalmazni a kritériumokat, hogy az legyen az eredmény, amit akarunk"</p>
-        <p class="owner">(Donát)</p>
+        <p class="quote">Valahogy úgy kellene megfogalmazni a kritériumokat, hogy az legyen az eredmény, amit akarunk</p>
+        <p class="owner">Donát</p>
 
-        <p class="quote">"Nagyon sok mindent el lehet adni úgy, mint MPC"</p>
-        <p class="owner">(Csaba)</p>
+        <p class="quote">Nagyon sok mindent el lehet adni úgy, mint MPC</p>
+        <p class="owner">Csaba</p>
 
-        <p class="quote">"Szerintem nem vagyunk olyan rossz mérnökök, mint amilyen rossz volt a mechatronika képzés"</p>
-        <p class="owner">(Ági)</p>
+        <p class="quote">Szerintem nem vagyunk olyan rossz mérnökök, mint amilyen rossz volt a mechatronika képzés</p>
+        <p class="owner">Ági</p>
 
-        <p class="quote">"De én csak egy kurva kekszet akarok enni"</p>
-        <p class="owner">(Attish)</p>
+        <p class="quote">De én csak egy kurva kekszet akarok enni</p>
+        <p class="owner">Attish</p>
 
-        <p class="quote">"Ember tervez, dspace végez"</p>
-        <p class="owner">(Bence)</p>
+        <p class="quote">Ember tervez, dspace végez</p>
+        <p class="owner">Bence</p>
 
-        <p class="quote">"A MATLAB valamiért nem azt nyitotta meg amit akartam, hanem amire kattintottam"</p>
-        <p class="owner">(Áron)</p>
+        <p class="quote">A MATLAB valamiért nem azt nyitotta meg amit akartam, hanem amire kattintottam</p>
+        <p class="owner">Áron</p>
 
-        <p class="quote">"Áron, mit rövidítesz azzal, hogy F.O.S.?"</p>
-        <p class="owner">(Ági)</p>
+        <p class="quote">Áron, mit rövidítesz azzal, hogy F.O.S.?</p>
+        <p class="owner">Ági</p>
 
-        <p class="quote">"Tudok küldeni youtube videót is, az csak 24 x 70 perc"</p>
-        <p class="owner">(Csaba)</p>
+        <p class="quote">Tudok küldeni youtube videót is, az csak 24 x 70 perc</p>
+        <p class="owner">Csaba</p>
 
-        <p class="quote">"250 Newton az lófasz"</p>
-        <p class="owner">(Áron)</p>
+        <p class="quote">A táska azért kell, hogy ha útközben találunk egy lóf*szt, ne a seggünkben kelljen hazahozni</p>
+        <p class="owner">Meg nem nevezett szerző</p>
     </body>
 </html>
 
